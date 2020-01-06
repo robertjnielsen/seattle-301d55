@@ -183,17 +183,17 @@ Student.prototype.scope = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scope());
+console.log(joe.scope());
 
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scopeArrow());
+console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// The joe object instance of the Student object constructor.
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// The Window object.
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Because of the way that bubbling works with "this" inside arrow functions. It scopes up towards the next parent object that is not declared with an arrow function, in this case all the way up to the Window object.
