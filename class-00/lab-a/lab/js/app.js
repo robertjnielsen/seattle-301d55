@@ -30,14 +30,14 @@ function makeRandom() {
 
 function displayPics(){
   while(viewed.length < 6){
-    let rando = makeRandom();
+    var rando = makeRandom();
     while(!viewed.includes(rando)){
       viewed.push(rando);
     }
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `let to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // We declared rando with let, thus making it locally block scoped to the while loop inside the displayPics function.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
@@ -98,7 +98,7 @@ function makeChart(){
         backgroundColor: 'gold',
         borderColor: '#214',
         data: votes,
-      }]
+      }],
     },
     options: {
       responsive: false,
@@ -107,11 +107,11 @@ function makeChart(){
           ticks: {
             max: 20,
             min: 0,
-            stepSize: 1
-          }
-        }]
-      }
-    }
+            stepSize: 1,
+          },
+        }],
+      },
+    },
   });
   Chart.defaults.global.defaultFontColor = '#eee'; //eslint-disable-line
 }
