@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+/* @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
 
-* {
+/* * {
   font-family: times;
 }
 
 body {
   background: #fff;
-}
+} */
 
-nav, article, aside, footer section {
+/* nav, article, aside, footer section {
   margin: 0 auto;
   width: 900px;
-}
+} */
 
-nav {
+/* nav {
   margin-top: 25px;
 }
 
@@ -32,27 +32,27 @@ nav {
   padding-left: 50px;
   font-family: 'Yellowtail', cursive;
   font-size: 2.4em;
-}
+} */
 
-#slogan {
+/* #slogan {
   width: 250px;
   padding-left: 55px;
   color: #a3a4a2;
   font-family: 'Abel', sans-serif;
   font-size: .65em;
   text-transform: uppercase;
-}
+} */
 
-nav ul {
+/* nav ul {
   float: right;
 }
 
 nav li {
   float: left;
   padding-right: 2px;
-}
+} */
 
-hr {
+/* hr {
   clear: both;
   border: 0;
   height: 13px;
@@ -63,9 +63,9 @@ h2 {
   margin-top: 50px;
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
-}
+} */
 
-.print, .date {
+/* .print, .date {
   color: #a9a8a5;
   font-family: 'Abel', sans-serif;
   font-size: .8em;
@@ -83,9 +83,9 @@ h2 {
   text-decoration: none;
   padding-left: 30px;
   float: right;
-}
+} */
 
-.print img {
+/* .print img {
   margin-right: 3px;
 }
 
@@ -95,13 +95,13 @@ main p {
   line-height: 1.3em;
   text-indent: 30px;
   margin: 20px 0px;
-}
+} */
 
-input {
+/* input {
   font-family: 'Patrick Hand', cursive;
-}
+} */
 
-.recipe {
+/* .recipe {
   letter-spacing: .1em;
   font-family: 'Patrick Hand', cursive;
   color: #666a42;
@@ -109,19 +109,19 @@ input {
   height: 260px;
   padding: 37px 0 0 60px;
   margin: 40px 0;
-}
+} */
 
-.recipe li {
+/* .recipe li {
   float: left;
   width: 40%;
   font-size: 1.3em;
   line-height: 31px;
-}
+} */
 
-aside {
+/* aside {
   padding-top: 30px;
   padding-bottom: 60px
-}
+} */
 
 aside img {
   float: left;
@@ -142,7 +142,7 @@ aside p {
 
 }
 
-aside button {
+/* aside button {
   float: right;
   font-family: 'Abel', sans-serif;
   text-transform: uppercase;
@@ -151,7 +151,7 @@ aside button {
   color: #fff;
   font-size: 1.2em;
   border: none;
-}
+} */
 
 section hr {
   border-bottom: 1px solid #eee;
@@ -164,7 +164,4 @@ footer section p{
   line-height: 1.5em;
   text-align: center;
   color: #aaa;
-}
-
-
 }
